@@ -4,3 +4,15 @@
 *.exe
 *.o
 *.obj
+*.json
+.vscode/
+*.log
+*.tmp
+*.cache
+*.swp
+*.swo
+*.bak
+*.dSYM
+*.class
+*.pyc
+_DS_Store
