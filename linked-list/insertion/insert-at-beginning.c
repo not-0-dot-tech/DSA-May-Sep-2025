@@ -13,6 +13,7 @@ Node *getNode(int);
 void insert_at_beginning(int);
 void display();
 void delete();
+void deleteRecursively(Node *);
 
 // head of the linked list
 Node *head = NULL; // initially list is empty
@@ -84,5 +85,15 @@ void display()
 
 void delete()
 {
-    
+    deleteRecursively(head);
+}
+
+void deleteRecursively(Node *current)
+{
+    if (!current) // if (NULL == current)
+        return;
+
+    deleteRecursively(current->next);
+
+    free(current);
 }
