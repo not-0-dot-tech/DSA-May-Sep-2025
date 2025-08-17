@@ -15,4 +15,4 @@
 *.dSYM
 *.class
 *.pyc
-_DS_Store
+.DS_Store
