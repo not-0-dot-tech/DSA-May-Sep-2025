@@ -9,6 +9,7 @@ int main()
     s.insert(10);
     s.insert(20);
     s.insert(30);
+    s.insert(20); // duplicate insertion, will be ignored
 
     // check if item exists
     if (s.find(20) != s.end())
